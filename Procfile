@@ -1,1 +1,1 @@
-web: java -jar target/api-green-food-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/api-green-food-0.0.1-SNAPSHOT.jar
